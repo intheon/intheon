@@ -10,16 +10,10 @@ body
 	background: 		#ffffff;
 	font-family: 		"Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	overflow:			hidden;
-	background:   		url(../img/soon.jpg) !important;
+	background:   		url(../img/bg.png) !important;
 	background-size:	cover  !important;
 }
 
-
-.message
-{
-	padding-top:	7%;
-	padding-left:	7%;
-}
 h1
 {
 	font-size:		2em;
@@ -28,6 +22,77 @@ p
 {
 	font-size:		1.5em;
 }
-a{
+a
+{
 	text-decoration: none;
+}
+
+.main
+{
+	padding:			1%;
+}
+
+.heading
+{
+	display:			inline-block;
+	color:				white;
+}
+#flash
+{
+	display:			inline-block;
+}
+
+.column
+{
+	display:			flex;
+	flex-direction:		column;
+	margin:				3%;
+}
+.rectangle
+{
+
+}
+
+.heading
+{
+	color:				black;
+}
+
+.row
+{
+	font-size:			1.5em;
+}
+
+.item
+{
+	margin-bottom:		1%;
+	border-radius:		3px;
+}
+.menu
+{
+
+}
+
+.flex
+{
+	color:				black;
+	padding:			1.4% 0.6% 1.4% 1.4%;
+	background-color: 	white;
+	opacity:			0.9;
+	color:				black;
+	text-align: 		left;
+	font-size:			1.3em;
+}
+
+.focus-panel
+{
+	border-radius:		3px;
+	position:			absolute;
+	background-color:	white;
+	width:				54%;
+	height:				40%;
+	opacity: 			1 !important;
+	z-index: 			3300;
+	margin-left:		44%;
+	margin-top:			4%;
 }
