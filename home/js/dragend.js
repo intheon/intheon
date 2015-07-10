@@ -80,7 +80,7 @@
       // Default setting
       defaultSettings = {
         pageClass          : "dragend-page",
-        direction          : "vertical",
+        direction          : "horizontal",
         minDragDistance    : "40",
         onSwipeStart       : noop,
         onSwipeEnd         : noop,
