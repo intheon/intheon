@@ -4,26 +4,26 @@ $(document).ready(function(){
 		home: {
 			id: "#home",
 			initial: true,
-			summary: "i code stuff",
-			content: "websites, apps, servers, your fridge, time machines. I've been doing this for years and intend to carry on.", 
+			summary: "I code stuff... websites, apps, servers, your fridge, time machines.",
+			content: "<img src='../intheon/index/img/bear.png' width='90px'><div class='greeting-big'>Hi!</div> I'm Ben - I specialise in front end web development and most things computer.<br /> Hit up my portfolio page to see the sort of stuff I can do. If you need something fixing, or potentially even breaking I think I can do you proud.", 
 		},
 		portfolio: {
 			id: "#portfolio",
 			initial: false,
-			summary: "welcome to the portfolio",
-			content: "here some of the stuff ive remembered, or not too ashamed of showing off", 
+			summary: "Stuff I'm proud off",
+			content: "I've recently put this site together, so there will be a lot of stuff that's just too old (or I've forgotten about) to post here. Here's some of my most recent work.", 
 		},
 		about: {
 			id: "#about",
 			initial: false,
 			summary: "a/s/l",
-			content: "born up north, lives down south, skates everything that resembles concrete, impeccible manners", 
+			content: "I was born and raised in the land of pies and thick accents, in Lancashire, North-West England. I've recently moved down to London and it's been a bit of a change to say the least. I skateboard anything that looks remotely rideable, and can make a mean cup o' tea. I've been interested in tech for years, and if I see something interesting will try and build a version of it from scratch. I've spent the majority of my career to date working at a digital publishers, and this has given me some pretty comprehensive business experience. I now want to go back to my main passion in IT, and that's creating stuff from scratch!", 
 		},
 		contact: {
 			id: "#contact",
 			inital: false,
-			summary: "got free tickets to a vip event?",
-			content: "get in contact via allobon@gmail.com or the form below", 
+			summary: "You can't beat a good hand-written email!",
+			content: "I freelance and would love to hear about any project you are working on, as I can offer consultancy advise, design, and coding abilities also! (the full package!) -- I'd also love to hear from you about anything else! (Such as free gig tickets!)", 
 		}
 	}
 	initialiseDragend(pages);
