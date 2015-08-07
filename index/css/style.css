@@ -6,13 +6,13 @@
 }
 
 @font-face {
-  font-family: 			'agency';
-  src: 					url('../fonts/agency.eot?#iefix') format('embedded-opentype'),  
+  	font-family: 			'agency';
+  	src: 					url('../fonts/agency.eot?#iefix') format('embedded-opentype'),  
   						url('../fonts/agency.woff') format('woff'), 
   						url('../fonts/agency.ttf')  format('truetype'), 
   						url('../fonts/agency.svg#AgencyFB-Reg') format('svg');
-  font-weight: 			normal;
-  font-style: 			normal;
+  	font-weight: 			normal;
+  	font-style: 			normal;
 }
 
 body 
@@ -137,6 +137,28 @@ a{
 {
 	opacity: 			0.4;
 	width:				20%;
+}
+
+.input-transition
+{
+	outline: 			none;
+	padding:			1.25%;
+	margin-top:			0.5%;
+	margin-bottom:		3.5%;
+	background:			rgba(255,255,255,0.4);
+	border-bottom:		2px solid rgba(0,0,0,0.0);
+	border-radius:		3px;
+	transition:			background 1s, border-bottom 3s, border-radius 1.2s;
+}
+.input-transition:focus
+{
+	background:			rgba(215,169,131,0.75);
+	border-bottom:		2px solid rgba(191,145,105,0.5);
+	border-radius:		6px;
+}
+
+input::-webkit-input-placeholder {
+   color: 				black
 }
 
 @media screen and (min-width:1920px){

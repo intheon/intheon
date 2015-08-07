@@ -23,7 +23,11 @@ $(document).ready(function(){
 			id: "#contact",
 			inital: false,
 			summary: "You can't beat a good hand-written email!",
-			content: "I freelance and would love to hear about any project you are working on, as I can offer consultancy advise, design, and coding abilities also! (the full package!) -- I'd also love to hear from you about anything else! (Such as free gig tickets!)", 
+			content: "<h2>Get in contact</h2><form id='contact-form'>\
+				<input class='input-transition' type='text' id='contact-form-input-name' placeholder='Name'>\
+				<input class='input-transition' type='text' id='contact-form-input-email' placeholder='Email'>\
+				<input class='input-transition' type='text' id='contact-form-input-comments' placeholder='Comments'>\
+			</form>", 
 		}
 	}
 	initialiseDragend(pages);
