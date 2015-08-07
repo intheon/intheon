@@ -1,0 +1,180 @@
+* 
+{
+	padding: 			0;
+	margin: 			0;
+	border: 			0;
+}
+@font-face {
+  font-family: 			'agency';
+  src: 					url('../fonts/agency.eot?#iefix') format('embedded-opentype'),  
+  						url('../fonts/agency.woff') format('woff'), 
+  						url('../fonts/agency.ttf')  format('truetype'), 
+  						url('../fonts/agency.svg#AgencyFB-Reg') format('svg');
+  font-weight: 			normal;
+  font-style: 			normal;
+}
+
+body 
+{
+	background: 		#ffffff;
+	overflow:			hidden;
+	background-color:	black;
+	background:   		url(../img/black1.png) !important;
+	background-size:	cover  !important;
+}
+
+.logo
+{
+	position: 			absolute;
+	top:				0;
+	padding:			2%;
+	z-index: 			5000;
+}
+
+.main
+{
+	display: 			inherit;
+}
+h1
+{
+	font-size:			2em;
+}
+p
+{
+	font-size:			1.5em;
+}
+a{
+	text-decoration: 	none;
+}
+.nav
+{
+	font-family: 		'agency' !important;
+	display: 			flex;
+	position: 			absolute;
+	top:				0;
+	right:				0;
+	width:				100%;
+	padding-left: 		16% !important;
+	z-index: 			3000;
+	background-color: 	rgba(28,27,27,0.6);	
+	border-bottom:		4px solid;
+	border-color: 		rgba(0,0,0,0.4);	
+	flex-direction:		row;
+}
+.nav_item
+{
+	font-size:			3em;
+	margin-right: 		1.5% !important;
+}
+
+.nav_item a
+{
+	color:				#606060;
+	transition:			color 0.7s;
+}
+
+.nav_item a:hover
+{
+	color:				#AF6223;
+}
+
+.active_nav_item
+{
+	color:				#AF6223 !important;
+}
+
+.content
+{
+	position: 			absolute;
+	width: 				100%;
+	height: 			100%;
+	visibility: 		hidden;
+	cursor: 			hand;
+	cursor:             -moz-grab;
+	cursor:             -webkit-grab;
+	cursor:             grab;
+	color:				white;
+	background:			transparent;
+}
+
+.panel-area
+{
+	padding-top:		7.7%;
+	width:				auto;
+	height:				auto;
+	overflow: 			hidden;
+	font-size: 			1.8em;
+}
+
+.panel-heading
+{
+	color:				rgba(96,96,96,0.4);
+	font-size: 			0.9em;
+	border-bottom:		4px solid;
+	border-color: 		rgba(0,0,0,0.3);
+	background-color: 	rgba(0,0,0,0.4);
+	text-align: 		left;
+	padding-left:		1%;
+	padding-top:		1%;
+}
+
+.panel-content
+{
+	color:				rgba(255,255,255,0.7);
+	font-size:			1em;
+	padding:			1%;
+	padding-right:		60%;
+}
+
+.greeting-big
+{
+	font-size:			3em;
+	display: 			inline;
+}
+
+.bear
+{
+	opacity: 			0.4;
+	width:				20%;
+}
+
+@media screen and (min-width:1920px){
+
+.logo
+{
+	padding:		1%;
+	width:			13%;
+}
+
+.nav
+{
+	position: 		absolute;
+	top:			0;
+	padding:		2.65%;
+	padding-right:	10%;
+}
+
+.main
+{
+	position:		inherit;
+}
+
+}
+
+@media screen and (max-width:620px){
+
+.logo
+{
+	padding-left: 	18%;
+	padding-right: 	18%;
+	width:			100%;
+}
+
+.panel-area
+{
+	float:			none;
+	width:			auto;
+	margin-top:		40%;
+}
+
+}
