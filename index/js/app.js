@@ -11,7 +11,26 @@ $(document).ready(function(){
 			id: "#portfolio",
 			initial: false,
 			summary: "Stuff I'm proud off",
-			content: "I've recently put this site together, so there will be a lot of stuff that's just too old (or I've forgotten about) to post here. Here's some of my most recent work.", 
+			content: "<div class='showcase-container'>Take a look at some of my recent work!\
+						<div class='showcase-item'>\
+							<div class='showcase-item-header'>Twitter mood detector</div>\
+							<div class='showcase-item-description'>Enter any phrase, or hashtag, and it will query the Twitter API for all results, then cram the resulting array through the <a href='http://www.alchemyapi.com/api/sentiment-analysis' target='_blank'>Sentimental API</a>.<br />The result is then presented in a pretty fashion whether the owner of that Tweet is Happy, Sad, or Indifferent.</div>\
+							<div class='showcase-item-url'><a href='http://intheon.uk/twitter' target='_blank'>http://intheon.uk/twitter</a></div>\
+							<div class='showcase-item-skills'><h2>Technology and skills demonstrated:</h2> HTML, CSS, JS, jQuery, Twitter API, Sentimental API, PHP, Photoshop.</div>\
+						</div>\
+						<div class='showcase-item'>\
+							<div class='showcase-item-header'>Personalised Dashboard</div>\
+							<div class='showcase-item-description'>I was pretty gutted when iGoogle was dismissed, coupled with the fact I'm pretty unorganised there's a definite need for me to have this set as my homepage. It is all handwritten to feature a todo list, dynamic feeds, a calendar of spending (so i can budget), and my emails all displayed.</div>\
+							<div class='showcase-item-url'><a href='http://intheon.uk/home' target='_blank'>http://intheon.uk/home</a></div>\
+							<div class='showcase-item-skills'><h2>Technology and skills demonstrated:</h2> HTML, CSS, Semantic UI, JS, jQuery, JSON, PHP, Gmail API</div>\
+						</div>\
+						<div class='showcase-item'>\
+							<div class='showcase-item-header'>Ed Hall Recording</div>\
+							<div class='showcase-item-description'>My first official project - A long time friend of mine runs his own recording studio business and needed a new mobile friendly site with his Soundcloud and Instagram pages pulling in.</div>\
+							<div class='showcase-item-url'><a href='http://intheon.uk/ed' target='_blank'>http://intheon.uk/ed</a></div>\
+							<div class='showcase-item-skills'><h2>Technology and skills demonstrated:</h2> HTML, CSS, Semantic UI, JS, jQuery</div>\
+						</div>\
+			</div>", 
 		},
 		about: {
 			id: "#about",
