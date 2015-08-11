@@ -23,14 +23,14 @@ body
 	background:   		url(../img/black1.png) !important;
 	background-size:	cover  !important;
 }
-
 .logo
 {
 	position: 			absolute;
-	top:				0;
-	padding:			2%;
+	margin-left: 		38.5%;
+	width:				100% ;
 	z-index: 			5000;
 }
+
 
 .main
 {
@@ -55,7 +55,7 @@ a{
 	top:				0;
 	right:				0;
 	width:				100%;
-	padding-left: 		16% !important;
+	padding-left: 		25% !important;
 	z-index: 			3000;
 	background-color: 	rgba(28,27,27,0.6);	
 	border-bottom:		4px solid;
@@ -67,11 +67,15 @@ a{
 	font-size:			3em;
 	margin-right: 		1.5% !important;
 }
+.nav_item:nth-child(3)
+{
+	margin-left:		26%;
+}
 
 .nav_item a
 {
 	color:				#606060;
-	transition:			color 0.7s;
+	transition: 		all 0.3s;
 }
 
 .nav_item a:hover

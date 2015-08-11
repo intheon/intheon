@@ -54,55 +54,34 @@ $(document).ready(function(){
 
 function initialiseDragend(pages)
 {
-	var firstChild = $(".content div:first-child").clone()
-	var lastChild  = $(".content div:last-child").clone()
-	var container  = $(".content");
-
-	firstChild.appendTo(container);
-	lastChild.prependTo(container);
-
+	var lastKnown = 0;
 	$(".content").dragend({
-		jumpToPage: 2,
-		onSwipeEnd: function(){
-
+		onSwipeStart: function(){
+			console.log("during" + lastKnown);
 			var target =  parseInt(this.page + 1);
-
 			$(".nav_item a:not([data-page='"+target+"'])").removeClass("active_nav_item");
 			$("[data-page='"+target+"']").addClass("active_nav_item");
-
-			var first 		= this.pages[0]
-			var last 		= this.pages[this.pages.length - 1];
-
-			if (first === this.activeElement)
-			{
-				this.jumpToPage(this.pages.length - 1 );
-			}
-
-			if (last === this.activeElement) 
-			{
-				this.jumpToPage(2);
-			}
+		},
+		onSwipeEnd: function(){
+			lastKnown = this.page;
+			console.log("end" + lastKnown);
 		},
 		afterInitialize: function(){
 			this.container.style.visibility = "visible";
-		}
+		},
 	});
 
 	$(".nav_item a").click(function(event){
-
-		/*
-		$(".nav_item a:not([data-page='"+this.page+"'])").removeClass("active_nav_item");
-		$("[data-page='"+this.page+"']").addClass("active_nav_item");
-		*/
-
-
-		var page = event.target.dataset.page;
-
+		var page = parseInt(event.target.dataset.page);
+			page = page;
 
         $(".content").dragend({
-          scrollToPage: page
+			onSwipeEnd: function(){
+			$(".nav_item a:not([data-page='"+page+"'])").removeAttr("class");
+			$("[data-page='"+page+"']").addClass("active_nav_item");
+		},
+          scrollToPage: page + 1
         });
-        
 	});
 
 	populateSlides(pages);
