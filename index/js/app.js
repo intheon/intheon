@@ -5,31 +5,93 @@ $(document).ready(function(){
 			id: "#home",
 			initial: true,
 			summary: "I code stuff... websites, apps, servers, your fridge, time machines.",
-			content: "<img src='../intheon/index/img/bear.png' width='90px'><div class='greeting-big'>Hi!</div> I'm Ben - I specialise in front end web development and most things computer.<br /> Hit up my portfolio page to see the sort of stuff I can do. If you need something fixing, or potentially even breaking I think I can do you proud.", 
+			content: "<img src='../intheon/index/img/bear.png' width='90px'><div class='greeting-big'>Hello!</div> I'm Ben, front end developer at your service. I'm good at listening to a requirement, and following through to get results on a project. <br /> Be it your launching your own start-up, professional agency, or want to give your brand an identity that you can be proud of, I think I can help. <br /> <br /> I've worked with SO many businesses and individuals alike so understand that each project should be treated uniquely. Take a look at my portfolio for a little insight to my work.", 
 		},
 		portfolio: {
 			id: "#portfolio",
 			initial: false,
 			summary: "Stuff I'm proud off",
-			content: "<div class='showcase-container'>Take a look at some of my recent work!\
-						<div class='showcase-item'>\
-							<div class='showcase-item-header'>Twitter mood detector</div>\
-							<div class='showcase-item-description'>Enter any phrase, or hashtag, and it will query the Twitter API for all results, then cram the resulting array through the <a href='http://www.alchemyapi.com/api/sentiment-analysis' target='_blank'>Sentimental API</a>.<br />The result is then presented in a pretty fashion whether the owner of that Tweet is Happy, Sad, or Indifferent.</div>\
-							<div class='showcase-item-url'><a href='http://intheon.uk/twitter' target='_blank'>http://intheon.uk/twitter</a></div>\
-							<div class='showcase-item-skills'><h2>Technology and skills demonstrated:</h2> HTML, CSS, JS, jQuery, Twitter API, Sentimental API, PHP, Photoshop.</div>\
-						</div>\
-						<div class='showcase-item'>\
-							<div class='showcase-item-header'>Personalised Dashboard</div>\
-							<div class='showcase-item-description'>I was pretty gutted when iGoogle was dismissed, coupled with the fact I'm pretty unorganised there's a definite need for me to have this set as my homepage. It is all handwritten to feature a todo list, dynamic feeds, a calendar of spending (so i can budget), and my emails all displayed.</div>\
-							<div class='showcase-item-url'><a href='http://intheon.uk/home' target='_blank'>http://intheon.uk/home</a></div>\
-							<div class='showcase-item-skills'><h2>Technology and skills demonstrated:</h2> HTML, CSS, Semantic UI, JS, jQuery, JSON, PHP, Gmail API</div>\
-						</div>\
-						<div class='showcase-item'>\
-							<div class='showcase-item-header'>Ed Hall Recording</div>\
-							<div class='showcase-item-description'>My first official project - A long time friend of mine runs his own recording studio business and needed a new mobile friendly site with his Soundcloud and Instagram pages pulling in.</div>\
-							<div class='showcase-item-url'><a href='http://intheon.uk/ed' target='_blank'>http://intheon.uk/ed</a></div>\
-							<div class='showcase-item-skills'><h2>Technology and skills demonstrated:</h2> HTML, CSS, Semantic UI, JS, jQuery</div>\
-						</div>\
+			content: "<div class='showcase-container'><h2>Recent Work</h2>\
+						<table class='ui table subtle'>\
+							<tbody>\
+								<tr>\
+									<td>Name</td>\
+									<td>Twitter mood detector</td>\
+								</tr>\
+								<tr>\
+									<td>Description</td>\
+									<td>Enter any phrase or hashtag, and it will query the Twitter API for all results, then cram the resulting array through the <a href='http://www.alchemyapi.com/api/sentiment-analysis' target='_blank'>Sentimental API</a>.<br />The result is then presented in a pretty fashion whether the owner of that Tweet is Happy, Sad, or Indifferent.</td>\
+								</tr>\
+								<tr>\
+									<td>Skills required</td>\
+									<td>HTML, CSS, JS, jQuery, Twitter API, Sentimental API, PHP, Photoshop.</td>\
+								</tr>\
+								<tr>\
+									<td>URL</td>\
+									<td><a href='http://intheon.uk/twitter' target='_blank'>intheon.uk/twitter</a></td>\
+								</tr>\
+							</tbody>\
+						</table>\
+						<table class='ui table subtle'>\
+							<tbody>\
+								<tr>\
+									<td>Name</td>\
+									<td>Personalised Dashboard</td>\
+								</tr>\
+								<tr>\
+									<td>Description</td>\
+									<td>I was pretty gutted when iGoogle was discontinued, coupled with the fact I'm pretty unorganised there's a definite need for me to have this set as my homepage. It is all handwritten to feature a todo list, dynamic feeds, a calendar of spending (so i can budget), and my emails all displayed.</td>\
+								</tr>\
+								<tr>\
+									<td>Skills required</td>\
+									<td>HTML, CSS, Semantic UI, JS, jQuery, JSON, PHP, Gmail API</td>\
+								</tr>\
+								<tr>\
+									<td>URL</td>\
+									<td><a href='http://intheon.uk/home<' target='_blank'>intheon.uk/home</a></td>\
+								</tr>\
+							</tbody>\
+						</table>\
+						<table class='ui table subtle'>\
+							<tbody>\
+								<tr>\
+									<td>Name</td>\
+									<td>Ed Hall Recording</td>\
+								</tr>\
+								<tr>\
+									<td>Description</td>\
+									<td>My first official project - A long time friend of mine runs his own recording studio business and needed a new mobile friendly site with his Soundcloud and Instagram pages pulling in.</td>\
+								</tr>\
+								<tr>\
+									<td>Skills required</td>\
+									<td>HTML, CSS, Semantic UI, JS, jQuery</td>\
+								</tr>\
+								<tr>\
+									<td>URL</td>\
+									<td><a href='http://intheon.uk/ed' target='_blank'>intheon.uk/ed</a></td>\
+								</tr>\
+							</tbody>\
+						</table>\
+						<table class='ui table subtle'>\
+							<tbody>\
+								<tr>\
+									<td>Name</td>\
+									<td>Ed Hall Recording</td>\
+								</tr>\
+								<tr>\
+									<td>Description</td>\
+									<td>My first official project - A long time friend of mine runs his own recording studio business and needed a new mobile friendly site with his Soundcloud and Instagram pages pulling in.</td>\
+								</tr>\
+								<tr>\
+									<td>Skills required</td>\
+									<td>HTML, CSS, Semantic UI, JS, jQuery</td>\
+								</tr>\
+								<tr>\
+									<td>URL</td>\
+									<td><a href='http://intheon.uk/ed' target='_blank'>intheon.uk/ed</a></td>\
+								</tr>\
+							</tbody>\
+						</table>\
 			</div>", 
 		},
 		about: {
@@ -91,6 +153,7 @@ function populateSlides(pages)
 {
 	for (keys in pages)
 	{
-		$("." + keys).html("<div class='panel-area'><div class='panel-heading'>" + pages[keys].summary + "</div><div class='panel-content'>" + pages[keys].content + "</div>");
+		$("." + keys).html("<div class='panel-area'><div class='panel-content'>" + pages[keys].content + "</div>");
 	}
+
 }

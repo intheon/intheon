@@ -22,11 +22,13 @@ body
 	background-color:	black;
 	background:   		url(../img/black1.png) !important;
 	background-size:	cover  !important;
+	-webkit-font-smoothing: antialiased !important;
+	text-shadow: 		1px 1px 1px rgba(255,255,255,0.03) !important;
 }
 .logo
 {
 	position: 			absolute;
-	margin-left: 		38.5%;
+	margin-left: 		42.5%;
 	width:				100% ;
 	z-index: 			5000;
 }
@@ -44,7 +46,8 @@ p
 {
 	font-size:			1.5em;
 }
-a{
+a
+{
 	text-decoration: 	none;
 }
 .nav
@@ -55,9 +58,9 @@ a{
 	top:				0;
 	right:				0;
 	width:				100%;
-	padding-left: 		25% !important;
+	padding-left: 		30% !important;
 	z-index: 			3000;
-	background-color: 	rgba(28,27,27,0.6);	
+	background-color: 	rgba(28,27,27,0.4);	
 	border-bottom:		4px solid;
 	border-color: 		rgba(0,0,0,0.4);	
 	flex-direction:		row;
@@ -75,12 +78,25 @@ a{
 .nav_item a
 {
 	color:				#606060;
-	transition: 		all 0.3s;
+	transition: 		all 0.6s;
+	letter-spacing: 	0.1px
 }
 
 .nav_item a:hover
 {
 	color:				#AF6223;
+}
+
+.content a
+{
+	color:				#606060;
+	transition: 		all 0.6s;
+	letter-spacing: 	1px
+}
+.content a:hover
+{
+	color:				#AF6223;
+	letter-spacing: 	2px
 }
 
 .active_nav_item
@@ -100,35 +116,27 @@ a{
 	cursor:             grab;
 	color:				white;
 	background:			transparent;
+	overflow: 			hidden !important;
 }
 
 .panel-area
 {
-	padding-top:		7.7%;
 	width:				auto;
 	height:				auto;
 	overflow: 			hidden;
-	font-size: 			1.8em;
-}
-
-.panel-heading
-{
-	color:				rgba(96,96,96,0.4);
-	font-size: 			0.9em;
-	border-bottom:		4px solid;
-	border-color: 		rgba(0,0,0,0.3);
-	background-color: 	rgba(0,0,0,0.4);
-	text-align: 		left;
-	padding-left:		1%;
-	padding-top:		1%;
+	padding-left:		29.92%;
+	padding-right:		32%;
+	padding-top:		2.5%;
+	font-size: 			1.3em;
+	margin-top: 		7.7%;
 }
 
 .panel-content
 {
+	overflow: 			hidden !important;
 	color:				rgba(255,255,255,0.7);
 	font-size:			1em;
 	padding:			1%;
-	padding-right:		60%;
 }
 
 .greeting-big
@@ -164,6 +172,52 @@ a{
 input::-webkit-input-placeholder {
    color: 				black
 }
+
+.showcase-container h2
+{
+	font-size:			1.05em;
+	padding-left:		1%;
+	opacity:			0.77;
+	font-weight: 		normal;
+	border-bottom:		1px solid rgba(255,255,255,0.1);
+	padding-bottom:		1%;
+}
+
+.subtle
+{
+	background:			none !important;
+	border:				none !important;
+	font-size:			0.9em !important;
+	color:				rgba(255,255,255,0.46) !important;
+	padding:			0 !important;
+	margin-bottom:		0 !important;
+	border:				1px solid rgba(255,255,255,0.1) !important;
+	overflow-y: 			hidden !important;
+}
+
+.subtle tr:nth-child(odd)
+{
+	background-color: 	rgba(255,255,255,0.04) !important;
+}
+.subtle tr:nth-child(even)
+{
+	background-color: 	rgba(255,255,255,0.01) !important;
+}
+
+.subtle tr td
+{
+	border:				none !important;
+	border:				1px solid rgba(255,255,255,0.03) !important;
+}
+
+.subtle tr td:nth-child(1)
+{
+	width:				22%;
+	font-size:			1.06em;
+	color:				rgba(255,255,255,0.6) !important;
+	border-right:		1px solid rgba(255,255,255,0.1) !important;
+}
+
 
 @media screen and (min-width:1920px){
 
