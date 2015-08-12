@@ -98,7 +98,7 @@ $(document).ready(function(){
 			id: "#about",
 			initial: false,
 			summary: "a/s/l",
-			content: "I was born and raised in the land of pies and thick accents, in Lancashire, North-West England. I've recently moved down to London and it's been a bit of a change to say the least. I skateboard anything that looks remotely rideable, and can make a mean cup o' tea. I've been interested in tech for years, and if I see something interesting will try and build a version of it from scratch. I've spent the majority of my career to date working at a digital publishers, and this has given me some pretty comprehensive business experience. I now want to go back to my main passion in IT, and that's creating stuff from scratch!", 
+			content: "I was born and raised in the land of pies and thick accents, in Lancashire, North-West England. I've recently moved down to London and it's been a bit of a change to say the least. I skateboard anything that looks remotely rideable, and can make a mean cup o' tea. I've been interested in tech for years, and if I see something interesting will try and build a version of it from scratch. I've spent the majority of my career to date working at a digital publishers, and this has given me some pretty comprehensive business experience. I'll always have the main passion in technology and the web, so have the skills to help out with a project your working on. Give me a shout and I'm sure I can help!", 
 		},
 		contact: {
 			id: "#contact",
